@@ -1,0 +1,63 @@
+body{
+    background-color: #1877F2;
+    color: #E23D28;
+    padding: 50px;
+}
+#mySidenav a {
+    position: absolute;
+    transition: 0.3s;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  #mySidenav a:hover {
+    left: 0;
+  }
+
+  #add {
+    top: 100px;
+    width: 120px;
+    left: -100px;
+    background-color: #04AA6D;
+  }
+  
+  #sub {
+    top: 180px;
+    width: 150px;
+    left: -130px;
+    background-color: #2196F3; 
+  }
+  
+  #mul {
+    top: 260px;
+    width: 160px;
+    left: -140px;
+    background-color: #f44336; 
+  }
+  
+  #div {
+    top: 340px;
+    width: 110px;
+    left: -90px;
+    background-color: #555;
+  }
+  #add1,#sub1,#mul1,#div1{
+    border: none;
+    width: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #add1{
+    background-color: #04AA6D;
+  }
+  #sub1{
+    background-color: #2196F3; 
+  }
+  #mul1{
+    background-color: #f44336; 
+  }
+  #div1{
+    background-color: #555;
+  }

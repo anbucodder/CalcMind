@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CalcMind</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mainpage.css">
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a onclick="add()" id="add">addition</a>
+            <a onclick="sub()" id="sub">substraction</a>
+            <a onclick="mul()" id="mul">multiplication</a>
+            <a onclick="div()" id="div">divition</a>
+          </div>
+        <center>
+          <h2 id="wel"></h2>
+            <div class="mt-4 p-5 bg-success text-white span-6">
+                <h1>addition</h1>
+                <p>you will learn the addition in detail in this website select the addition tab in the left side or click the 
+                <button id="add1" onclick="add()">button</button>to get inside and learn about addition</p>
+              </div>
+              <div class="mt-4 p-5 bg-info text-white span-6">
+                <h1>substraction</h1>
+                <p>you will learn the substraction in detail in this website select the substraction tab in the left side or click the 
+                <button id="sub1" onclick="sub()">button</button>to get inside and learn about substraction
+            </p>
+              </div>
+              <div class="mt-4 p-5 bg-danger text-white span-6">
+                <h1>multiplication</h1>
+                <p>you will learn the multiplication in detail in this website select the multiplication tab in the left side or click the 
+                <button id="mul1" onclick="mul()">button</button>to get inside and learn about multiplication
+            </p>
+              </div>
+              <div class="mt-4 p-5 bg-secondary text-white span-6">
+                <h1>divition</h1>
+                <p>you will learn the divition in detail in this website select the divition tab in the left side or click the
+                <button id="div1" onclick="div()">button</button>to get inside and learn about divition
+            </p>
+              </div>
+        </center>
+    <script src="mainpage.js" async defer></script>
+</body>
+</html>
