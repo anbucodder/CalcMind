@@ -1,6 +1,6 @@
 name=localStorage.getItem("username");
 
-document.getElementById("wel").innerHTML="welcome to CalcMind "+name+" !!"
+document.getElementById("wel").innerHTML="Celcome to CalcMind "+name+" !!"
 
 function add(){
     window.location="addprop.html";
